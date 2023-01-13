@@ -1,0 +1,43 @@
+.container{
+    background-color: #FFFAFA;; 
+    height : 550px;
+    width: 100%;
+}
+
+.header{
+    height: 40px;
+    width: 100%;
+    background-color: #4d5061;
+}
+
+.main-content{
+    height: 510px;
+    width: 100%;
+    float: left;
+}
+
+.bloc:hover{
+    fill: #4d5061;
+    stroke-width: .25px;
+}
+
+.map-tooltip{
+    position: absolute;
+    text-align: left;
+    background-color: #4d5061;
+    opacity: 0.9;
+    padding: 2px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+select{
+    width: 120px;
+    height: 40px;
+    margin: 0px 0px;
+    background-color: #4d5061;
+    color: white;
+    border-radius: 5px;
+}
