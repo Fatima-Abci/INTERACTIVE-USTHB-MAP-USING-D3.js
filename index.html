@@ -13,34 +13,44 @@
 		/**************************************************************************************
 		*                					GLOBAL VARIABLES                                  *
 		***************************************************************************************/
-		var speciality = ["Spécialité"];
-		var prof = ["Enseignant"];
+		var speciality = [];
+		var prof = [];
 		var day = ["Jour", "Sam", "Dim", "Lun", "Mar", "Mer", "Jeu"];
 		var time = ["Heure", "08:00 - 09:30", "09:40 - 11:10", "11:20 - 12:50", "13:00 - 14:30", "14:40 - 16:10", "16:20 - 17:50"];
-		var selectSpeciality;
+		var selectChoice;
 		var selectTime;
 		var selectDay;
 		var selectProf;
-		var arrSelectedVal = {spec : "", jour : "", heure : "", prof : ""};
+		var arrSelectedVal = {choice : "", jour : "", heure : ""};
         var classrooms = [];
         var tooltip;
         var div;
         var header;
-        var nav;
+        var footer;
         var svg;
-        var g;
+        var g1;
+        var g2;
         var projection;
         var path;
         var zoom;
         var legend = [
-                      {name : "Salles occupées (spécialité utilisateur)", color : "#00FF00"}, 
-                      {name : "Salles occupées (autres spécialités utilisateur)", color : "#FF0000"}
+                      {name : "salles occupées (spécialité séléctionnée)", color : "#00FF00"}, 
+                      {name : "salles occupées (autres spécialités)", color : "#FF0000"},
+                      {name : "local occupée [enseignant]", color : "blue"},
+                      {name : "évènement en cours", color : "#6C3483"},
+                      {name : "évènement planifié", color : "#D7BDE2"}
                     ];
         //Initialize legend
         var legendItemSize = 12;
         var legendSpacing = 4;
         var xOffset = 800;
         var yOffset = 50;
+        var button;
+        var upper;
+        var date;
+        var color;
+        var name;
+        var html;
 
 		/**************************************************************************************
 		*																					  *
@@ -73,6 +83,7 @@
             var exist = false;
             schedules.forEach(function (schedule) {
                 var x = d3.values(schedule.Jour);
+                console.log(x);
                 x.forEach(function(d1){
                     var y = d3.values(d1);
                     y.forEach(function(d2){
@@ -87,7 +98,11 @@
                                     }
                                 }
                                 if (exist == false) {
-                                    array.push(data.Prof);
+                                    if(data.Prof != "")
+                                    {
+                                        array.push(data.Prof);
+                                    }
+                                    
                                 }
                                 exist = false;
                            });
@@ -113,6 +128,15 @@
             return select;
         }
         //*************************************************************************************
+        //createOptGroup
+        function createOptgroup(select, label)
+        {
+            var optgroup;
+            optgroup = select.append("optgroup")
+                             .attr("label", label);
+            return optgroup;
+        }
+        //*************************************************************************************
         //addOptions
         function addOptions(select, array, firstValue) {
             select.selectAll("option")
@@ -130,31 +154,34 @@
                     return d;
                 });
         }
+
+        //addOptions with optgroup
+        function addOptionsOpt(optgroup, array){
+            var label = optgroup.attr("label");
+            optgroup.selectAll("option")
+                .data(array)
+                .enter()
+                .append("option")
+                .attr("value", function (d) {
+                    return label+"_"+d;
+                })
+                .text(function (d) {
+                    return d;
+                });
+        }
+        //*************************************************************************************
+        //addOption
+        function addOption(select, text)
+        {
+            select.append("option")
+                  .attr("value", "")
+                  .text(text);
+        }
         //*************************************************************************************
         //function mouseOver (when the user hovers over a specfic building-->a tooltip is displayed showing some intressting informations[name...etc])
-        function mouseover(d, tooltip)
+        function mouseover(html, tooltip)
         {
-            if(d.properties.name != ""){
-                        tooltip.html('<b>Name : </b>'+d.properties.name)
-                            .style("color", "white")
-                            .style('visibility', 'visible')
-                            .style("top", (event.pageY - 35)+"px")
-                            .style("left", (event.pageX + 35)+"px");
-                    }
-        }
-
-        function mouseOver(object, tooltip)
-        {
-            tooltip.html('<b>Name : </b>'+object.nomSalle+'<br>'
-                            +'<b>Spécialité : </b>'+object.speciality+'<br>'
-                            +'<b>Section : </b>'+object.section+'<br>'
-                            +'<b>Grade : </b>'+object.grade+'<br>'
-                            +'<b>Module : </b>'+object.module+'<br>'
-                            +'<b>Enseignant : </b>'+object.prof+'<br>'
-                            +'<b>Groupe : </b>'+object.groupe+'<br>'
-                            +'<b>Type : </b>'+object.type+'<br>'
-                            +'<b>Time : </b>'+object.heure+'<br>'
-                            +'<b>Jour : </b>'+object.jour)
+            tooltip.html(html)
                 .style("color", "white")
                 .style('visibility', 'visible')
                 .style("top", (event.pageY - 35)+"px")
@@ -178,7 +205,8 @@
                         svg.select("#_"+salle.nomSalle)
                             .style('fill', color)
                             .on('mouseover', function(){
-                                mouseover(d, tooltip);
+                                var html = '<b>Name : </b>'+d.properties.name;
+                                mouseover(html, tooltip);
                             })
                             .on('mouseout', function(){
                                 mouseOut(tooltip);
@@ -198,7 +226,15 @@
                         svg.select("#_"+salle.nomSalle)
                             .style('fill', salle.color)
                             .on('mouseover', function(d){
-                                mouseOver(salle, tooltip);
+                                var html =   '<b>Name : </b>'+salle.nomSalle+'<br>'
+                                        +'<b>Spécialité : </b>'+salle.speciality+'<br>'
+                                        +'<b>Section : </b>'+salle.section+'<br>'
+                                        +'<b>Grade : </b>'+salle.grade+'<br>'
+                                        +'<b>Module : </b>'+salle.module+'<br>'
+                                        +'<b>Enseignant : </b>'+salle.prof+'<br>'
+                                        +'<b>Groupe : </b>'+salle.groupe+'<br>'
+                                        +'<b>Type : </b>'+salle.type+'<br>';
+                                mouseover(html, tooltip);
                             })
                             .on("mouseout", function(){
                                 mouseOut(tooltip);
@@ -222,16 +258,32 @@
                     prof : d.Prof,
                     groupe : d.Groupe,
                     type : d.Type,
-                    color : color,
-                    heure : arrSelectedVal["heure"],
-                    jour : arrSelectedVal["jour"]
+                    color : color
                 };
                 classrooms.push(object);
             });
         }
+
+        //Fill
+        function filld(d, schedule, classrooms, color)
+        {
+            var object = {};
+            object = {
+            speciality : schedule.Filere,
+            grade : schedule.Grade,
+            section : schedule.Section,
+            module : d.Module,
+            nomSalle : d.Salle,
+            prof : d.Prof,
+            groupe : d.Groupe,
+            type : d.Type,
+            color : color
+            };
+            classrooms.push(object);
+        }
         //*************************************************************************************
         //FillClassroomArr
-        function filleClassroomsArr(schedules, geojson, color)
+        function fillClassroomsArr(match, schedules, geojson, color)
         {
             var x;
             var keyJ = arrSelectedVal["jour"];
@@ -241,24 +293,37 @@
             classrooms.length = 0; // empty the classrooms array
             schedules.forEach(function (schedule){ 
                 x = d3.values(schedule.Jour[keyJ][keyH]);
-                if(arrSelectedVal["spec"] == schedule.Filere)
+                if(match[0] == "SPECIALITE")
                 {
-                    fill(x, schedule, classrooms, "#00FF00");
+                    if(match[1] == schedule.Filere)
+                    {
+                        fill(x, schedule, classrooms, "#00FF00");
+                    }else{
+                        fill(x, schedule, classrooms, "#FF0000");
+                    }
                 }else{
-                    fill(x, schedule, classrooms, "#FF0000");
+                    x.forEach(function(d){
+                        if(match[1] == d.Prof)
+                        {
+                            filld(d, schedule, classrooms, "blue");
+                        }
+                    });
                 }
             });
         }
         //*************************************************************************************
         //captUserValues
-        function captUserValues(select, key, id, schedules, geojson)
+        function captUserValues(select, key, schedules, geojson)
         {
+            var id = "#"+select.attr("id");
+            console.log(id);
             select.on("change", function(){
                 arrSelectedVal[key] = getSelectedValue(id);
                         
-                if(arrSelectedVal["spec"] != "" && arrSelectedVal["jour"] != "" && arrSelectedVal["heure"] != "")
+                if(arrSelectedVal["choice"] != "" && arrSelectedVal["jour"] != "" && arrSelectedVal["heure"] != "")
                 {
-                    filleClassroomsArr(schedules, geojson, '#FFFAFA');
+                    var match = arrSelectedVal["choice"].split('_')
+                    fillClassroomsArr(match, schedules, geojson, '#FFFAFA');
                     colorClassrooms(geojson, classrooms, tooltip);
                 }else{
                     resetColorClassrooms(geojson, classrooms, '#FFFAFA');
@@ -269,7 +334,7 @@
         //*************************************************************************************
         //handleZoom
         function handleZoom() {
-            g.attr("transform", d3.event.transform);
+            g1.attr("transform", d3.event.transform);
             console.log("zoom");
         }
         /**************************************************************************************
@@ -300,7 +365,12 @@
 					 .attr("class", "main-content");
 
         //append a g element to the svg
-        g = svg.append('g');
+        g1 = svg.append('g');
+        g2 = svg.append("g");
+
+        //append a footer to the div container
+		footer = div.append("div")
+				    .attr("class", "footer");
 		/**************************************************************************************
          *																					  *
          **************************************************************************************/
@@ -322,10 +392,18 @@
                  .on("zoom", handleZoom);   //attach an event handler to the zoom behaviourn (formulation to listen to the zoom event)
         svg.call(zoom);
 
-        svg.call(zoom.transform, d3.zoomIdentity); //reset a zoom (i have to continue this...)
+        //add a button to a footer
+        button = footer.append('button')
+                        .text("RESET")
+                        .attr("class", "button_click");
+
+        //reset a zoom
+        button.on("click", function(){
+                    svg.call(zoom.transform, d3.zoomIdentity);
+              });
 
         //Create legend items
-       svg.selectAll('rect')
+       g2.selectAll('rect')
         .data(legend)
         .enter()
         .append('rect')
@@ -340,14 +418,13 @@
                         });
 
         //Create legend labels
-        svg.selectAll('text')
+        g2.selectAll('text')
          .data(legend)
          .enter()
          .append('text')
          .attr('x', xOffset + legendItemSize + 5)
          .attr('y', (d, i) => yOffset + (legendItemSize + legendSpacing) * i + 12)
-         .text(d => d.name); 
-
+         .text(d => d.name);
 
         // read the geojson file using the json function, and then perform some operations on it
         d3.json('usthb.geojson').then(function(geojson){
@@ -356,7 +433,7 @@
             var s = .99 / Math.max( (b[1][0] - b[0][0]) / 750 , (b[1][1] - b[0][1]) / 500 ); 
             var t = [ (750 - s * (b[1][0] +b[0][0])) / 2 , (500 - s * (b[1][1]+b[0][1])) / 2 ];
             projection.translate(t).scale(s);
-            g.selectAll('path')
+            g1.selectAll('path')
             .data(geojson.features)
             .enter()
             .append('path')
@@ -365,12 +442,17 @@
                 .attr('class', 'bloc')
                 .attr('cursor', 'pointer')
                 .attr('id', function(d){
-                    return "_"+String(d.properties.name); //add id to svg path from the geojson file
+                    var t = "_"+String(d.properties.name);
+                    return t.replaceAll(' ', ''); //add id to svg path from the geojson file
                 }) 
                 .attr('stroke', 'black')
                 .attr('stroke-width', '.2px')
                 .on('mouseover', function(d){
-                    mouseover(d, tooltip);
+                    if(d.properties.name != "")
+                    {
+                        var html = '<b>Name : </b>'+d.properties.name;
+                        mouseover(html, tooltip);
+                    }
                 })
                 .on('mouseout', function(){
                     mouseOut(tooltip);
@@ -379,29 +461,62 @@
 		// read the json file using the json function, and then perform some operations on it
         d3.json('dataF.json').then(function (schedules) {
             fillArraySpec(schedules, speciality);// fill out the speciality array
-            // fillArrayProf(schedules, prof);  // fill out the prof array
-            // console.log(prof);
+            fillArrayProf(schedules, prof);  // fill out the prof array
+            upper = prof.map(element => {
+                    return element.toUpperCase();
+            });
+            upper.sort(); // sort an array prof
 
             //add a dropdown speciality
-            selectSpeciality = createSelect("speciality", header);
-            addOptions(selectSpeciality, speciality, "Spécialité");
-            captUserValues(selectSpeciality, "spec", "#speciality", schedules, geojson);
+            selectChoice = createSelect("choice", header);
+            addOption(selectChoice, "--Select option--");
+            optgroup1 = createOptgroup(selectChoice , "SPECIALITE");
+            optgroup2 = createOptgroup(selectChoice , "ENSEIGNANT");
+            addOptionsOpt(optgroup1, speciality);
+            addOptionsOpt(optgroup2, upper);
+            captUserValues(selectChoice, "choice", schedules, geojson);
 
             //add a dropdown day
             selectDay = createSelect("day", header);
             addOptions(selectDay, day, "Jour");
-            captUserValues(selectDay, "jour", "#day", schedules, geojson);
+            captUserValues(selectDay, "jour", schedules, geojson);
             
             //add a dropdown time
             selectTime = createSelect("time", header);
             addOptions(selectTime, time, "Heure");
-            captUserValues(selectTime, "heure", "#time", schedules, geojson);
-
-			//add a dropdown Prof
-            selectProf = createSelect("enseignant", header);
-            addOptions(selectProf,prof, "Enseignant");
-            captUserValues(selectProf, "prof", "#enseignant", schedules, geojson);    
+            captUserValues(selectTime, "heure", schedules, geojson);  
                 
+        });
+
+        //load the csv file (events.csv) and perform some operations on it
+        d3.csv('events.csv').then(function(data){
+            geojson.features.forEach(function(feature){
+                data.forEach(function(d){
+                    if(d.location == feature.properties.name)
+                    {
+                        date = new Date().toLocaleDateString();
+                        if(d.date == date)
+                        {
+                            color = "#6C3483";
+                        }else{
+                            color = "#D7BDE2";
+                        }
+                        name = feature.properties.name;
+                        svg.select("#_"+name.replaceAll(' ', ''))
+                           .style('fill', color)
+                           .on('mouseover', function(){
+                                html = '<b>Name : </b>'+d.location+'<br>'
+                                       +'<b>Subject : </b>'+d.subject+'<br>'
+                                       +'<b>Organizer : </b>'+d.organizer+'<br>'
+                                       +'<b>Date : </b>'+d.date+'<br>';
+                                mouseover(html, tooltip);
+                            })
+                            .on("mouseout", function(){
+                                mouseOut(tooltip);
+                            });
+                    }
+                });
+            });
         });
             
        });

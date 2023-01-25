@@ -1,13 +1,13 @@
 .container{
-    background-color: #FFFAFA;; 
-    height : 550px;
+    background-color: #FFFAFA;
+    height : 580px;
     width: 100%;
 }
 
 .header{
     height: 40px;
     width: 100%;
-    background-color: #4d5061;
+    background-color: black;
 }
 
 .main-content{
@@ -16,15 +16,23 @@
     float: left;
 }
 
+.footer{
+    clear: both;
+    background-color: #FFFAFA;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
 .bloc:hover{
-    fill: #4d5061;
+    fill: black;
     stroke-width: .25px;
 }
 
 .map-tooltip{
     position: absolute;
     text-align: left;
-    background-color: #4d5061;
+    background-color: black;
     opacity: 0.9;
     padding: 2px;
     border: solid;
@@ -34,10 +42,22 @@
 }
 
 select{
-    width: 120px;
+    width: 200px;
     height: 40px;
     margin: 0px 0px;
-    background-color: #4d5061;
+    background-color: black;
     color: white;
     border-radius: 5px;
+}
+
+.button_click{
+    color: white;
+	height: 30px;
+	width: 10%;
+    background-color: black;
+}
+
+.button_click:hover{
+    background-color: #FFFAFA;
+    color: black;
 }

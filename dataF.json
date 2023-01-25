@@ -46,14 +46,14 @@
           {
             "Module": "ARCHI1",
             "Salle": "414",
-            "Prof": "BOUCHENE ",
+            "Prof": "BOUCHENE",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "LOG.MATH",
             "Salle": "420",
-            "Prof": "KESSI ",
+            "Prof": "KESSI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -83,7 +83,7 @@
           {
             "Module": "LOG.MATH",
             "Salle": "358",
-            "Prof": "KESSI ",
+            "Prof": "KESSI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -125,7 +125,7 @@
           {
             "Module": "ALGO.S.D",
             "Salle": "418",
-            "Prof": "OUAZAR ",
+            "Prof": "OUAZAR",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -141,7 +141,7 @@
           {
             "Module": "SYS.INFO",
             "Salle": "463",
-            "Prof": "DJIROUNE ",
+            "Prof": "DJIROUNE",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -157,7 +157,7 @@
           {
             "Module": "SYS.INFO",
             "Salle": "416",
-            "Prof": "DJIROUNE ",
+            "Prof": "DJIROUNE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -190,7 +190,7 @@
           {
             "Module": "ARCHI1",
             "Salle": "106",
-            "Prof": "BOUCHENE ",
+            "Prof": "BOUCHENE",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -206,7 +206,7 @@
           {
             "Module": "MATH.INFO",
             "Salle": "102",
-            "Prof": "BEHLOUL ",
+            "Prof": "BEHLOUL",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -229,7 +229,7 @@
           {
             "Module": "ALGO.S.D",
             "Salle": "TP.C4",
-            "Prof": "SOUADIA ",
+            "Prof": "SOUADIA",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -294,14 +294,14 @@
           {
             "Module": "PROB.STAT",
             "Salle": "379",
-            "Prof": "BEHLOUL ",
+            "Prof": "BEHLOUL",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ALGO.S.D",
             "Salle": "381",
-            "Prof": "BESSAA ",
+            "Prof": "BESSAA",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -352,7 +352,7 @@
           {
             "Module": "ALGO.S.D",
             "Salle": "TP.C3B",
-            "Prof": "ABDELLAHOUM ",
+            "Prof": "ABDELLAHOUM",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -379,7 +379,7 @@
           {
             "Module": "LOG.MATH",
             "Salle": "379",
-            "Prof": "KADDOURI ",
+            "Prof": "KADDOURI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -402,7 +402,7 @@
           {
             "Module": "ARCHI1",
             "Salle": "416",
-            "Prof": "MEKHALDI ",
+            "Prof": "MEKHALDI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -474,14 +474,14 @@
           {
             "Module": "ALGO.S.D",
             "Salle": "389",
-            "Prof": "BESSAA ",
+            "Prof": "BESSAA",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "SYS.INFO",
             "Salle": "443",
-            "Prof": "DJIROUNE ",
+            "Prof": "DJIROUNE",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -497,14 +497,14 @@
           {
             "Module": "SYS.INFO",
             "Salle": "358",
-            "Prof": "DJIROUNE ",
+            "Prof": "DJIROUNE",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ARCHI1",
             "Salle": "362",
-            "Prof": "MEKHALDI ",
+            "Prof": "MEKHALDI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -554,14 +554,14 @@
           {
             "Module": "ALGO.S.D",
             "Salle": "104",
-            "Prof": "SMAILI ",
+            "Prof": "SMAILI",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ARCHI1",
             "Salle": "108",
-            "Prof": "FEREDJ ",
+            "Prof": "FEREDJ",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -577,7 +577,7 @@
           {
             "Module": "SYS.INFO",
             "Salle": "F",
-            "Prof": "AZZOUZ ",
+            "Prof": "AZZOUZ",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -612,7 +612,7 @@
           {
             "Module": "MATH.INFO",
             "Salle": "451",
-            "Prof": "Benbaziz ",
+            "Prof": "Benbaziz",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -677,14 +677,14 @@
           {
             "Module": "ARCHI1",
             "Salle": "449",
-            "Prof": "FEREDJ ",
+            "Prof": "FEREDJ",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "LOG.MATH",
             "Salle": "116",
-            "Prof": "MAZOUZ ",
+            "Prof": "MAZOUZ",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -700,14 +700,14 @@
           {
             "Module": "LOG.MATH",
             "Salle": "410",
-            "Prof": "MAZOUZ ",
+            "Prof": "MAZOUZ",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "MATH.INFO",
             "Salle": "406",
-            "Prof": "Benbaziz ",
+            "Prof": "Benbaziz",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -728,7 +728,7 @@
           {
             "Module": "PROB.STAT",
             "Salle": "439",
-            "Prof": "BOUIBEDE ",
+            "Prof": "BOUIBEDE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -758,7 +758,7 @@
           {
             "Module": "PROB.STAT",
             "Salle": "TP.C9",
-            "Prof": "BOUIBEDE ",
+            "Prof": "BOUIBEDE",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -817,7 +817,7 @@
           {
             "Module": "COMPIL",
             "Salle": "E",
-            "Prof": "BOUAZABIA ",
+            "Prof": "BOUAZABIA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -872,14 +872,14 @@
           {
             "Module": "TH.GRAPH",
             "Salle": "385",
-            "Prof": "BENKAOUHA ",
+            "Prof": "BENKAOUHA",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "GL",
             "Salle": "358",
-            "Prof": "HAMMAL ",
+            "Prof": "HAMMAL",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -930,14 +930,14 @@
           {
             "Module": "SYS.EXP2",
             "Salle": "407",
-            "Prof": "BELGUERCHE ",
+            "Prof": "BELGUERCHE",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "COMPIL",
             "Salle": "447",
-            "Prof": "belhadi hiba ",
+            "Prof": "belhadi hiba",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -953,7 +953,7 @@
           {
             "Module": "COMPIL",
             "Salle": "150",
-            "Prof": "BOUAZABIA ",
+            "Prof": "BOUAZABIA",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -997,14 +997,14 @@
           {
             "Module": "RESEAUX",
             "Salle": "TP126",
-            "Prof": "OUSSANE ",
+            "Prof": "OUSSANE",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "SYS.EXP2",
             "Salle": "TP.C7",
-            "Prof": "BENZAID ",
+            "Prof": "BENZAID",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -1020,7 +1020,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP127",
-            "Prof": "FRIHI ",
+            "Prof": "FRIHI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1036,14 +1036,14 @@
           {
             "Module": "COMPIL",
             "Salle": "TP127",
-            "Prof": "FRIHI ",
+            "Prof": "FRIHI",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "SYS.EXP2",
             "Salle": "TP.C4",
-            "Prof": "BENZAID ",
+            "Prof": "BENZAID",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -1091,14 +1091,14 @@
           {
             "Module": "TH.GRAPH",
             "Salle": "243",
-            "Prof": "DJOUADI ",
+            "Prof": "DJOUADI",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "GL",
             "Salle": "411",
-            "Prof": "BERKANI ",
+            "Prof": "BERKANI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -1114,7 +1114,7 @@
           {
             "Module": "TH.GRAPH",
             "Salle": "162",
-            "Prof": "DJOUADI ",
+            "Prof": "DJOUADI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -1194,7 +1194,7 @@
           {
             "Module": "COMPIL",
             "Salle": "303",
-            "Prof": "ALIOUANE ",
+            "Prof": "ALIOUANE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -1217,7 +1217,7 @@
           {
             "Module": "GL",
             "Salle": "403",
-            "Prof": "BERKANI ",
+            "Prof": "BERKANI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1233,7 +1233,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP130",
-            "Prof": "belhadi hiba ",
+            "Prof": "belhadi hiba",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1259,14 +1259,14 @@
           {
             "Module": "SYS.EXP2",
             "Salle": "TP.C4",
-            "Prof": "NEMOUCHI ",
+            "Prof": "NEMOUCHI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "COMPIL",
             "Salle": "TP.C5",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -1323,7 +1323,7 @@
           {
             "Module": "SYS.EXP2",
             "Salle": "409",
-            "Prof": "AYAD ",
+            "Prof": "AYAD",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -1339,7 +1339,7 @@
           {
             "Module": "SYS.EXP2",
             "Salle": "412",
-            "Prof": "AYAD ",
+            "Prof": "AYAD",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1390,7 +1390,7 @@
           {
             "Module": "GL",
             "Salle": "389",
-            "Prof": "OULEFKI ",
+            "Prof": "OULEFKI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -1426,14 +1426,14 @@
           {
             "Module": "SYS.EXP2",
             "Salle": "TP129",
-            "Prof": "DOUKHA ",
+            "Prof": "DOUKHA",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "RESEAUX",
             "Salle": "TP122",
-            "Prof": "BOUZIANE ",
+            "Prof": "BOUZIANE",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -1449,7 +1449,7 @@
           {
             "Module": "COMPIL",
             "Salle": "170",
-            "Prof": "HIMRANE ",
+            "Prof": "HIMRANE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1486,7 +1486,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP.C3B",
-            "Prof": "BELHADI ",
+            "Prof": "BELHADI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1502,7 +1502,7 @@
           {
             "Module": "TH.GRAPH",
             "Salle": "170",
-            "Prof": "BOUKALA ",
+            "Prof": "BOUKALA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1525,7 +1525,7 @@
           {
             "Module": "RESEAUX",
             "Salle": "TP122",
-            "Prof": "EL NAGGER ",
+            "Prof": "EL NAGGER",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1551,7 +1551,7 @@
           {
             "Module": "SYS.EXP2",
             "Salle": "445",
-            "Prof": "Mekliche ",
+            "Prof": "Mekliche",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -1601,7 +1601,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP129",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -1657,7 +1657,7 @@
           {
             "Module": "S.C.A.N",
             "Salle": "217",
-            "Prof": "DJERADI ",
+            "Prof": "DJERADI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1673,7 +1673,7 @@
           {
             "Module": "PROG.WEB",
             "Salle": "TP128",
-            "Prof": "BELLACHE ",
+            "Prof": "BELLACHE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1853,7 +1853,7 @@
           {
             "Module": "S.C.A.N",
             "Salle": "TP.C7",
-            "Prof": "DJERADI ",
+            "Prof": "DJERADI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1869,7 +1869,7 @@
           {
             "Module": "RES.S.FIL",
             "Salle": "TP.C6",
-            "Prof": "BOUZIANE ",
+            "Prof": "BOUZIANE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -1904,7 +1904,7 @@
           {
             "Module": "T.R.C.I",
             "Salle": "409",
-            "Prof": "abdelli ",
+            "Prof": "abdelli",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -1946,7 +1946,7 @@
           {
             "Module": "EL.NUM",
             "Salle": "257",
-            "Prof": "HARROUNI ",
+            "Prof": "HARROUNI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -1997,7 +1997,7 @@
           {
             "Module": "ELECTROMAG",
             "Salle": "446",
-            "Prof": "ADANE ",
+            "Prof": "ADANE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2038,7 +2038,7 @@
           {
             "Module": "EL.NUM",
             "Salle": "LABO",
-            "Prof": "HARROUNI ",
+            "Prof": "HARROUNI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2054,7 +2054,7 @@
           {
             "Module": "EL.NUM",
             "Salle": "LABO",
-            "Prof": "HARROUNI ",
+            "Prof": "HARROUNI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2070,7 +2070,7 @@
           {
             "Module": "EL.ANAL",
             "Salle": "labo-elt1",
-            "Prof": "RAAF ",
+            "Prof": "RAAF",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2166,7 +2166,7 @@
           {
             "Module": "PROB/STA",
             "Salle": "459",
-            "Prof": "CHAABANE ",
+            "Prof": "CHAABANE",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -2250,7 +2250,7 @@
           {
             "Module": "ARCHI1",
             "Salle": "259",
-            "Prof": "BOUCHENE ",
+            "Prof": "BOUCHENE",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2266,14 +2266,14 @@
           {
             "Module": "SI1",
             "Salle": "448",
-            "Prof": "HEDJAZI-DELLAL ",
+            "Prof": "HEDJAZI-DELLAL",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "LOGIQUE",
             "Salle": "410",
-            "Prof": "BELLALA ",
+            "Prof": "BELLALA",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2289,14 +2289,14 @@
           {
             "Module": "LOGIQUE",
             "Salle": "320",
-            "Prof": "BELLALA ",
+            "Prof": "BELLALA",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ARCHI1",
             "Salle": "338",
-            "Prof": "ayache ",
+            "Prof": "ayache",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2319,7 +2319,7 @@
           {
             "Module": "SI1",
             "Salle": "385",
-            "Prof": "HEDJAZI- DELLAL",
+            "Prof": "HEDJAZI-DELLAL",
             "Groupe": "G2",
             "Type": "TD"
           }
@@ -2339,7 +2339,7 @@
           {
             "Module": "CAL. NUM",
             "Salle": "118",
-            "Prof": "BEHLOUL ",
+            "Prof": "BEHLOUL",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -2355,7 +2355,7 @@
           {
             "Module": "CAL. NUM",
             "Salle": "118",
-            "Prof": "BEHLOUL ",
+            "Prof": "BEHLOUL",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2421,7 +2421,7 @@
           {
             "Module": "ARCHI1",
             "Salle": "412",
-            "Prof": "BOUCHENE ",
+            "Prof": "BOUCHENE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2487,7 +2487,7 @@
           {
             "Module": "SI1",
             "Salle": "403",
-            "Prof": "BENALI ",
+            "Prof": "BENALI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2537,7 +2537,7 @@
           {
             "Module": "LOGIQUE",
             "Salle": "-444-",
-            "Prof": "Bouyakoub née Sema ",
+            "Prof": "Bouyakoub née Sema",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -2567,7 +2567,7 @@
           {
             "Module": "CAL. NUM",
             "Salle": "363",
-            "Prof": "LAICHE ",
+            "Prof": "LAICHE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -2586,7 +2586,7 @@
           {
             "Module": "PROB/STA",
             "Salle": "377",
-            "Prof": "BOUIBEDE ",
+            "Prof": "BOUIBEDE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -2637,14 +2637,14 @@
           {
             "Module": "ARCHI1",
             "Salle": "132",
-            "Prof": "Derbal ",
+            "Prof": "Derbal",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "PROB/STA",
             "Salle": "381",
-            "Prof": "BOUIBEDE ",
+            "Prof": "BOUIBEDE",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2660,14 +2660,14 @@
           {
             "Module": "ALGO2",
             "Salle": "267",
-            "Prof": "BENSAOU ",
+            "Prof": "BENSAOU",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ARCHI1",
             "Salle": "132",
-            "Prof": "Derbal ",
+            "Prof": "Derbal",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2718,7 +2718,7 @@
           {
             "Module": "ALGO2",
             "Salle": "TP132",
-            "Prof": "BENSAOU ",
+            "Prof": "BENSAOU",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2854,7 +2854,7 @@
           {
             "Module": "RESEAUX",
             "Salle": "160",
-            "Prof": "ATIF ",
+            "Prof": "ATIF",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -2870,7 +2870,7 @@
           {
             "Module": "BD2",
             "Salle": "TP128",
-            "Prof": "ABDAT ",
+            "Prof": "ABDAT",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2893,7 +2893,7 @@
           {
             "Module": "SYS02",
             "Salle": "360",
-            "Prof": "CHENAIT ",
+            "Prof": "CHENAIT",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2919,7 +2919,7 @@
           {
             "Module": "COMPIL",
             "Salle": "452",
-            "Prof": "GHARBI ",
+            "Prof": "GHARBI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -2935,7 +2935,7 @@
           {
             "Module": "SYS02",
             "Salle": "TP.C4",
-            "Prof": "SAIGHI ",
+            "Prof": "SAIGHI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -2977,7 +2977,7 @@
           {
             "Module": "BD2",
             "Salle": "TP126",
-            "Prof": "ABDAT ",
+            "Prof": "ABDAT",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -2993,7 +2993,7 @@
           {
             "Module": "BD2",
             "Salle": "403",
-            "Prof": "ABDAT ",
+            "Prof": "ABDAT",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -3019,14 +3019,14 @@
           {
             "Module": "GL2",
             "Salle": "444",
-            "Prof": "haddouche epse che ",
+            "Prof": "haddouche epse che",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "SYS02",
             "Salle": "446",
-            "Prof": "CHENAIT ",
+            "Prof": "CHENAIT",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -3042,14 +3042,14 @@
           {
             "Module": "RESEAUX",
             "Salle": "124",
-            "Prof": "ATIF ",
+            "Prof": "ATIF",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "GL2",
             "Salle": "444",
-            "Prof": "haddouche epse che ",
+            "Prof": "haddouche epse che",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -3087,7 +3087,7 @@
           {
             "Module": "GL2",
             "Salle": "TP.C4",
-            "Prof": "haddouche epse che ",
+            "Prof": "haddouche epse che",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3110,7 +3110,7 @@
           {
             "Module": "GL2",
             "Salle": "TP.C5",
-            "Prof": "haddouche epse che ",
+            "Prof": "haddouche epse che",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -3126,7 +3126,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP.C8",
-            "Prof": "El-Tanni ",
+            "Prof": "El-Tanni",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -3142,7 +3142,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP.C4",
-            "Prof": "AMROUS ",
+            "Prof": "AMROUS",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3158,7 +3158,7 @@
           {
             "Module": "SI2",
             "Salle": "438",
-            "Prof": "HANK ",
+            "Prof": "HANK",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -3207,7 +3207,7 @@
           {
             "Module": "RESEAUX",
             "Salle": "C203",
-            "Prof": "DOUKHA ",
+            "Prof": "DOUKHA",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -3281,7 +3281,7 @@
           {
             "Module": "COMPIL",
             "Salle": "450",
-            "Prof": "NACER ",
+            "Prof": "NACER",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -3331,7 +3331,7 @@
           {
             "Module": "BD2",
             "Salle": "TP.C7",
-            "Prof": "KERKAD ",
+            "Prof": "KERKAD",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -3347,7 +3347,7 @@
           {
             "Module": "BD2",
             "Salle": "TP.C7",
-            "Prof": "KERKAD ",
+            "Prof": "KERKAD",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -3391,14 +3391,14 @@
           {
             "Module": "SYS02",
             "Salle": "450",
-            "Prof": "ZEBBANE ",
+            "Prof": "ZEBBANE",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "SI2",
             "Salle": "122",
-            "Prof": "GUEBAILI ",
+            "Prof": "GUEBAILI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -3414,14 +3414,14 @@
           {
             "Module": "RESEAUX",
             "Salle": "122",
-            "Prof": "DOUKHA ",
+            "Prof": "DOUKHA",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "COMPIL",
             "Salle": "448",
-            "Prof": "NACER ",
+            "Prof": "NACER",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -3455,7 +3455,7 @@
           {
             "Module": "GL2",
             "Salle": "TP.C7",
-            "Prof": "Aberbour ",
+            "Prof": "Aberbour",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3471,14 +3471,14 @@
           {
             "Module": "SI2",
             "Salle": "TP.C6",
-            "Prof": "ZERROUKI ",
+            "Prof": "ZERROUKI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "GL2",
             "Salle": "TP.C7",
-            "Prof": "Aberbour ",
+            "Prof": "Aberbour",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -3494,14 +3494,14 @@
           {
             "Module": "SI2",
             "Salle": "TP.C3B",
-            "Prof": "ZERROUKI ",
+            "Prof": "ZERROUKI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "SYS02",
             "Salle": "TP127",
-            "Prof": "SAIGHI ",
+            "Prof": "SAIGHI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3517,14 +3517,14 @@
           {
             "Module": "SYS02",
             "Salle": "TP129",
-            "Prof": "SAIGHI ",
+            "Prof": "SAIGHI",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "SI2",
             "Salle": "TP.C3B",
-            "Prof": "ZERROUKI ",
+            "Prof": "ZERROUKI",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -3657,7 +3657,7 @@
           {
             "Module": "Complexité",
             "Salle": "TP130",
-            "Prof": "BABA ALI ",
+            "Prof": "BABA ALI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3694,7 +3694,7 @@
           {
             "Module": "SYSTM",
             "Salle": "TP.C9",
-            "Prof": "GUEBLI ",
+            "Prof": "GUEBLI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3812,7 +3812,7 @@
           {
             "Module": "GP",
             "Salle": "TP.C8",
-            "Prof": "BOUCHAM ",
+            "Prof": "BOUCHAM",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3837,7 +3837,7 @@
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG",
-            "Prof": "ZENOUN ",
+            "Prof": "ZENOUN",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3921,7 +3921,7 @@
           {
             "Module": "SSAD",
             "Salle": "TP.C3A",
-            "Prof": "NACER ",
+            "Prof": "NACER",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -3950,7 +3950,7 @@
           {
             "Module": "TH.ORD",
             "Salle": "416",
-            "Prof": "BOUDHAR ",
+            "Prof": "BOUDHAR",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -3966,7 +3966,7 @@
           {
             "Module": "GR.BIGD",
             "Salle": "410",
-            "Prof": "ABBAS ",
+            "Prof": "ABBAS",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -4015,7 +4015,7 @@
           {
             "Module": "OPTDIS",
             "Salle": "454",
-            "Prof": "BOUMESBAH ",
+            "Prof": "BOUMESBAH",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4031,7 +4031,7 @@
           {
             "Module": "TBI-SIG",
             "Salle": "TP.C8",
-            "Prof": "MEKAHLIA ",
+            "Prof": "MEKAHLIA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4047,7 +4047,7 @@
           {
             "Module": "Anglais",
             "Salle": "LABO LANG",
-            "Prof": "ZENOUN ",
+            "Prof": "ZENOUN",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4063,7 +4063,7 @@
           {
             "Module": "Anglais",
             "Salle": "LABO LANG1",
-            "Prof": "ZENOUN ",
+            "Prof": "ZENOUN",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4107,7 +4107,7 @@
           {
             "Module": "ANADISS",
             "Salle": "TP131",
-            "Prof": "HAMRANI ep ABDELLA ",
+            "Prof": "HAMRANI ep ABDELLA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4130,7 +4130,7 @@
           {
             "Module": "TIAD",
             "Salle": "TP.C4",
-            "Prof": "NECIR ",
+            "Prof": "NECIR",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4286,7 +4286,7 @@
           {
             "Module": "Bio-Math",
             "Salle": "245",
-            "Prof": "Benbaziz ",
+            "Prof": "Benbaziz",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -4309,7 +4309,7 @@
           {
             "Module": "SystProgScript",
             "Salle": "TP.C5",
-            "Prof": "BENZAID ",
+            "Prof": "BENZAID",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4433,7 +4433,7 @@
           {
             "Module": "GP--",
             "Salle": "TP130",
-            "Prof": "BOUCHAM ",
+            "Prof": "BOUCHAM",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4531,7 +4531,7 @@
           {
             "Module": "CalPar-Arch",
             "Salle": "459",
-            "Prof": "MEHDI ",
+            "Prof": "MEHDI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4655,7 +4655,7 @@
           {
             "Module": "MPDL",
             "Salle": "363",
-            "Prof": "HACHEMI ",
+            "Prof": "HACHEMI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4671,14 +4671,14 @@
           {
             "Module": "ASS QUAL",
             "Salle": "TP.C3A",
-            "Prof": "CHABOUNI ",
+            "Prof": "CHABOUNI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "MPDL",
             "Salle": "441",
-            "Prof": "HACHEMI ",
+            "Prof": "HACHEMI",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -4722,14 +4722,14 @@
           {
             "Module": "REP CON",
             "Salle": "446",
-            "Prof": "ISLI ",
+            "Prof": "ISLI",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -4745,7 +4745,7 @@
           {
             "Module": "ASS QUAL",
             "Salle": "442",
-            "Prof": "CHABOUNI ",
+            "Prof": "CHABOUNI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -4777,7 +4777,7 @@
           {
             "Module": "CPT AVANC",
             "Salle": "TP.C5",
-            "Prof": "Saadi ",
+            "Prof": "Saadi",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -4805,14 +4805,14 @@
           {
             "Module": "MPDL",
             "Salle": "TP.C6",
-            "Prof": "ABBACI ",
+            "Prof": "ABBACI",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "REP CON",
             "Salle": "TP.C9",
-            "Prof": "ISLI ",
+            "Prof": "ISLI",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -4828,14 +4828,14 @@
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG2",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "REP CON",
             "Salle": "TP.C9",
-            "Prof": "ISLI ",
+            "Prof": "ISLI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -4868,14 +4868,14 @@
           {
             "Module": "SIC",
             "Salle": "TP131",
-            "Prof": "MAHDAOUI ",
+            "Prof": "MAHDAOUI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "ENT DON",
             "Salle": "TP126",
-            "Prof": "SELMOUNE ",
+            "Prof": "SELMOUNE",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -4891,21 +4891,21 @@
           {
             "Module": "ENT DON",
             "Salle": "TP126",
-            "Prof": "SELMOUNE ",
+            "Prof": "SELMOUNE",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "SIC",
             "Salle": "TP131",
-            "Prof": "MAHDAOUI ",
+            "Prof": "MAHDAOUI",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "CPT AVANC",
             "Salle": "TP122",
-            "Prof": "Saadi ",
+            "Prof": "Saadi",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -4935,7 +4935,7 @@
           {
             "Module": "CPT AVANC",
             "Salle": "TP.C6",
-            "Prof": "Saadi ",
+            "Prof": "Saadi",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -4991,7 +4991,7 @@
           {
             "Module": "ASGBD",
             "Salle": "TP.C8",
-            "Prof": "KESSI ",
+            "Prof": "KESSI",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -5007,14 +5007,14 @@
           {
             "Module": "SYST",
             "Salle": "TP132",
-            "Prof": "DJOUADI ",
+            "Prof": "DJOUADI",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "GP",
             "Salle": "TP131",
-            "Prof": "KHEMISSA ",
+            "Prof": "KHEMISSA",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -5030,7 +5030,7 @@
           {
             "Module": "ASGBD",
             "Salle": "TP.C8",
-            "Prof": "KESSI ",
+            "Prof": "KESSI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -5098,7 +5098,7 @@
           {
             "Module": "GP",
             "Salle": "TP130",
-            "Prof": "KHEMISSA ",
+            "Prof": "KHEMISSA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5128,14 +5128,14 @@
           {
             "Module": "GP",
             "Salle": "TP132",
-            "Prof": "KHEMISSA ",
+            "Prof": "KHEMISSA",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "COMPLEXITE",
             "Salle": "TP.C3B",
-            "Prof": "HEDJAZI-DELLAL ",
+            "Prof": "HEDJAZI-DELLAL",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -5151,14 +5151,14 @@
           {
             "Module": "WEB AV",
             "Salle": "TP129",
-            "Prof": "MIHOUB ",
+            "Prof": "MIHOUB",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "COMPLEXITE",
             "Salle": "TP.C3B",
-            "Prof": "HEDJAZI-DELLAL ",
+            "Prof": "HEDJAZI-DELLAL",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -5237,14 +5237,14 @@
           {
             "Module": "MEPS",
             "Salle": "414",
-            "Prof": "AISSANI ",
+            "Prof": "AISSANI",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "COMPLEXITE",
             "Salle": "410",
-            "Prof": "HEDJAZI-DELLAL ",
+            "Prof": "HEDJAZI-DELLAL",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -5303,7 +5303,7 @@
           {
             "Module": "Système d'Exploitation Mobile",
             "Salle": "162",
-            "Prof": "OURAHMOUNE ",
+            "Prof": "OURAHMOUNE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -5368,7 +5368,7 @@
           {
             "Module": "Connaissances et Raisonnement",
             "Salle": "TP.C4",
-            "Prof": "KHELLAF ",
+            "Prof": "KHELLAF",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5384,7 +5384,7 @@
           {
             "Module": "Atelier Créatif",
             "Salle": "TP.C5",
-            "Prof": "LARABI ",
+            "Prof": "LARABI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5427,7 +5427,7 @@
           {
             "Module": "Système d'Exploitation Mobile",
             "Salle": "TP.C5",
-            "Prof": "OURAHMOUNE ",
+            "Prof": "OURAHMOUNE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5452,7 +5452,7 @@
           {
             "Module": "GP-",
             "Salle": "TP.C7",
-            "Prof": "BENSALAH ",
+            "Prof": "BENSALAH",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5471,7 +5471,7 @@
           {
             "Module": "TH JEU",
             "Salle": "402",
-            "Prof": "DAHMANI ",
+            "Prof": "DAHMANI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -5552,7 +5552,7 @@
           {
             "Module": "Anglais",
             "Salle": "LABO LANG",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5568,7 +5568,7 @@
           {
             "Module": "TAI",
             "Salle": "TP.C3B",
-            "Prof": "DELLOUL ",
+            "Prof": "DELLOUL",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5598,7 +5598,7 @@
           {
             "Module": "Résolution de problèmes",
             "Salle": "TP129",
-            "Prof": "SEBAI ",
+            "Prof": "SEBAI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5617,7 +5617,7 @@
           {
             "Module": "Syst",
             "Salle": "TP.C4",
-            "Prof": "BENCHAIBA ",
+            "Prof": "BENCHAIBA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5640,7 +5640,7 @@
           {
             "Module": "TAI",
             "Salle": "405",
-            "Prof": "SETITRA ",
+            "Prof": "SETITRA",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -5683,7 +5683,7 @@
           {
             "Module": "Syst",
             "Salle": "249",
-            "Prof": "BENCHAIBA ",
+            "Prof": "BENCHAIBA",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5699,7 +5699,7 @@
           {
             "Module": "ABDD",
             "Salle": "TP.C5",
-            "Prof": "KESSI ",
+            "Prof": "KESSI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5734,7 +5734,7 @@
           {
             "Module": "Algo",
             "Salle": "406",
-            "Prof": "MESSAOUDI ",
+            "Prof": "MESSAOUDI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5750,7 +5750,7 @@
           {
             "Module": "Multimédia",
             "Salle": "TP.C5",
-            "Prof": "SEBAI ",
+            "Prof": "SEBAI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5826,14 +5826,14 @@
           {
             "Module": "ASGBD",
             "Salle": "TP131",
-            "Prof": "BERKANI ",
+            "Prof": "BERKANI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "Anglais",
             "Salle": "LABO LANG1",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -5858,7 +5858,7 @@
           {
             "Module": "Res Prot",
             "Salle": "TP122",
-            "Prof": "Bouachi ",
+            "Prof": "Bouachi",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -5877,14 +5877,14 @@
           {
             "Module": "Algo.Av.et Compl",
             "Salle": "454",
-            "Prof": "MOSTEGHANEMI ",
+            "Prof": "MOSTEGHANEMI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "Algo.Av.et Compl",
             "Salle": "TP.C3B",
-            "Prof": "NEMOUCHI ",
+            "Prof": "NEMOUCHI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -5914,14 +5914,14 @@
           {
             "Module": "Anglais",
             "Salle": "LABO LANG1",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "Algo.Av.et Compl",
             "Salle": "267",
-            "Prof": "MOSTEGHANEMI ",
+            "Prof": "MOSTEGHANEMI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5949,7 +5949,7 @@
           {
             "Module": "ASGBD",
             "Salle": "TP.C5",
-            "Prof": "BERKANI ",
+            "Prof": "BERKANI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -5972,7 +5972,7 @@
           {
             "Module": "GP",
             "Salle": "TP.C3B",
-            "Prof": "BOUCHAM ",
+            "Prof": "BOUCHAM",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -5988,7 +5988,7 @@
           {
             "Module": "Algo.Av.et Compl",
             "Salle": "TP.C3B",
-            "Prof": "MESSAOUDI ",
+            "Prof": "MESSAOUDI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -6053,14 +6053,14 @@
           {
             "Module": "SYST",
             "Salle": "360",
-            "Prof": "ABDELLAHOUM ",
+            "Prof": "ABDELLAHOUM",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "MEPS",
             "Salle": "160",
-            "Prof": "GHARBI ",
+            "Prof": "GHARBI",
             "Groupe": "G3",
             "Type": "TD"
           },
@@ -6083,14 +6083,14 @@
           {
             "Module": "SYST",
             "Salle": "TP132",
-            "Prof": "MEHDI ",
+            "Prof": "MEHDI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "GP",
             "Salle": "TP130",
-            "Prof": "BOUCHAM ",
+            "Prof": "BOUCHAM",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6142,14 +6142,14 @@
           {
             "Module": "RES MOB",
             "Salle": "TP131",
-            "Prof": "Saadi ",
+            "Prof": "Saadi",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "CAR",
             "Salle": "TP130",
-            "Prof": "BOULKRINAT ",
+            "Prof": "BOULKRINAT",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -6172,14 +6172,14 @@
           {
             "Module": "CAR",
             "Salle": "TP130",
-            "Prof": "BOULKRINAT ",
+            "Prof": "BOULKRINAT",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "RES MOB",
             "Salle": "TP131",
-            "Prof": "Saadi ",
+            "Prof": "Saadi",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -6195,14 +6195,14 @@
           {
             "Module": "CAR",
             "Salle": "TP130",
-            "Prof": "BOULKRINAT ",
+            "Prof": "BOULKRINAT",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "CAL.PAR",
             "Salle": "TP127",
-            "Prof": "BOUGHACI ",
+            "Prof": "BOUGHACI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6222,14 +6222,14 @@
           {
             "Module": "RES S F",
             "Salle": "TP132",
-            "Prof": "BENKAOUHA ",
+            "Prof": "BENKAOUHA",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "ING-RES",
             "Salle": "TP122",
-            "Prof": "zeraoulia",
+            "Prof": "Zeraoulia",
             "Groupe": "G2",
             "Type": "TP"
           }
@@ -6245,7 +6245,7 @@
           {
             "Module": "ING-RES",
             "Salle": "TP.C5",
-            "Prof": "Zeraoulia ",
+            "Prof": "Zeraoulia",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -6280,14 +6280,14 @@
           {
             "Module": "RES S F",
             "Salle": "TP.C6",
-            "Prof": "BENKAOUHA ",
+            "Prof": "BENKAOUHA",
             "Groupe": "G2",
             "Type": "TP"
           },
           {
             "Module": "ING-RES",
             "Salle": "TP122",
-            "Prof": "Zeraoulia ",
+            "Prof": "Zeraoulia",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -6303,14 +6303,14 @@
           {
             "Module": "ANGLAIS",
             "Salle": "Labo langue B2",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "SYS.DISTR",
             "Salle": "TP.C3B",
-            "Prof": "Seddiki ",
+            "Prof": "Seddiki",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -6335,7 +6335,7 @@
           {
             "Module": "ing-res ",
             "Salle": "167T",
-            "Prof": "zeraoulia"
+            "Prof": "Zeraoulia"
           }
         ],
         "16:20 - 17:50": null
@@ -6345,7 +6345,7 @@
           {
             "Module": "CAL.PAR",
             "Salle": "408",
-            "Prof": "BOUGHACI ",
+            "Prof": "BOUGHACI",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -6361,14 +6361,14 @@
           {
             "Module": "SYS.DISTR",
             "Salle": "TP126",
-            "Prof": "Seddiki ",
+            "Prof": "Seddiki",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG2",
-            "Prof": "BOUDEFASSA ",
+            "Prof": "BOUDEFASSA",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6444,7 +6444,7 @@
           {
             "Module": "CAR",
             "Salle": "TP.C8",
-            "Prof": "BOULKRINAT ",
+            "Prof": "BOULKRINAT",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6518,7 +6518,7 @@
           {
             "Module": "MEPS",
             "Salle": "358",
-            "Prof": "AMROUS ",
+            "Prof": "AMROUS",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -6551,7 +6551,7 @@
           {
             "Module": "SYST",
             "Salle": "TP128",
-            "Prof": "Larbi ",
+            "Prof": "Larbi",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -6567,14 +6567,14 @@
           {
             "Module": "SYST",
             "Salle": "TP131",
-            "Prof": "Larbi ",
+            "Prof": "Larbi",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "COMPLEXITE",
             "Salle": "TP129",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6613,7 +6613,7 @@
           {
             "Module": "COMPLEXITE",
             "Salle": "TP131",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -6629,7 +6629,7 @@
           {
             "Module": "COMPLEXITE",
             "Salle": "TP129",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G3",
             "Type": "TP"
           },
@@ -6655,14 +6655,14 @@
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG",
-            "Prof": "ZENOUN ",
+            "Prof": "ZENOUN",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "COMPLEXITE",
             "Salle": "451",
-            "Prof": "DRIAS ",
+            "Prof": "DRIAS",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -6678,14 +6678,14 @@
           {
             "Module": "SYST",
             "Salle": "154",
-            "Prof": "ZEBBANE ",
+            "Prof": "ZEBBANE",
             "Groupe": "G1",
             "Type": "TD"
           },
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG",
-            "Prof": "ZENOUN ",
+            "Prof": "ZENOUN",
             "Groupe": "G2",
             "Type": "TD"
           },
@@ -6701,7 +6701,7 @@
           {
             "Module": "COMPLEXITE",
             "Salle": "R5",
-            "Prof": "DRIAS ",
+            "Prof": "DRIAS",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -6752,7 +6752,7 @@
           {
             "Module": "COMPIL",
             "Salle": "TP.C3B",
-            "Prof": "ALIOUANE ",
+            "Prof": "ALIOUANE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -6788,7 +6788,7 @@
           {
             "Module": "RES PB",
             "Salle": "404",
-            "Prof": "AZZOUNE ",
+            "Prof": "AZZOUNE",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -6824,7 +6824,7 @@
           {
             "Module": "D.MINING",
             "Salle": "TP130",
-            "Prof": "Houacine ",
+            "Prof": "Houacine",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6847,7 +6847,7 @@
           {
             "Module": "D.MINING",
             "Salle": "TP.C3A",
-            "Prof": "Houacine ",
+            "Prof": "Houacine",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -6863,14 +6863,14 @@
           {
             "Module": "P .CONTR",
             "Salle": "TP.C3A",
-            "Prof": "ISLI ",
+            "Prof": "ISLI",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "REP CON",
             "Salle": "TP.C3B",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6886,7 +6886,7 @@
           {
             "Module": "REP CON",
             "Salle": "TP.C6",
-            "Prof": "MOULAI ",
+            "Prof": "MOULAI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -6905,7 +6905,7 @@
           {
             "Module": "D.MINING",
             "Salle": "TP.C7",
-            "Prof": "DRIAS ",
+            "Prof": "DRIAS",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -6921,7 +6921,7 @@
           {
             "Module": "P .CONTR",
             "Salle": "446",
-            "Prof": "ISLI ",
+            "Prof": "ISLI",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -6937,7 +6937,7 @@
           {
             "Module": "D.MINING",
             "Salle": "410",
-            "Prof": "DRIAS ",
+            "Prof": "DRIAS",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -6970,14 +6970,14 @@
           {
             "Module": "VISION",
             "Salle": "TP127",
-            "Prof": "ABADA ",
+            "Prof": "ABADA",
             "Groupe": "G1",
             "Type": "TP"
           },
           {
             "Module": "RI",
             "Salle": "TP132",
-            "Prof": "KHENNAK ",
+            "Prof": "KHENNAK",
             "Groupe": "G2",
             "Type": "TP"
           },
@@ -7044,7 +7044,7 @@
           {
             "Module": "ANGLAIS",
             "Salle": "LABO LANG",
-            "Prof": "ZENOUN ",
+            "Prof": "ZENOUN",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7065,7 +7065,7 @@
           {
             "Module": "TAL",
             "Salle": "TP132",
-            "Prof": "TAMEN ",
+            "Prof": "TAMEN",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7081,7 +7081,7 @@
           {
             "Module": "RI",
             "Salle": "TP126",
-            "Prof": "KHENNAK ",
+            "Prof": "KHENNAK",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7159,7 +7159,7 @@
           {
             "Module": "ARCH.RES",
             "Salle": "TP126",
-            "Prof": "ZAFOUNE ",
+            "Prof": "ZAFOUNE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7210,7 +7210,7 @@
           {
             "Module": "SYST",
             "Salle": "453",
-            "Prof": "BELKHIR ",
+            "Prof": "BELKHIR",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -7226,7 +7226,7 @@
           {
             "Module": "INTR.SECU",
             "Salle": "TP132",
-            "Prof": "EL NAGGER ",
+            "Prof": "EL NAGGER",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7273,7 +7273,7 @@
           {
             "Module": "SYST",
             "Salle": "TP.C4",
-            "Prof": "OURAHMOUNE ",
+            "Prof": "OURAHMOUNE",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7318,7 +7318,7 @@
           {
             "Module": "INTR.SECU",
             "Salle": "407",
-            "Prof": "Mekliche ",
+            "Prof": "Mekliche",
             "Groupe": "G1",
             "Type": "TD"
           },
@@ -7378,7 +7378,7 @@
           {
             "Module": "AUT SEC",
             "Salle": "TP132",
-            "Prof": "BERBAR ",
+            "Prof": "BERBAR",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7406,7 +7406,7 @@
           {
             "Module": "SEC.SYS AV",
             "Salle": "TP127",
-            "Prof": "GUERROUMI ",
+            "Prof": "GUERROUMI",
             "Groupe": "G1",
             "Type": "TP"
           },
@@ -7544,7 +7544,7 @@
           {
             "Module": "MPOD",
             "Salle": "TP122",
-            "Prof": "Mekliche ",
+            "Prof": "Mekliche",
             "Groupe": "G1",
             "Type": "TP"
           },
