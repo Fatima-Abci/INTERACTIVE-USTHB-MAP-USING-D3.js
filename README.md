@@ -26,3 +26,5 @@ visualizing the classrooms used by a specific teacher, those classrooms will be 
 ## USAGE
 - `usthb.geojson` represents the map of USTHB and it was created using https://geojson.io/#map=2/0/20.
 - `dataF.json` contains all the schedules of the computer science faculty.
+- `index.html` holds all the logic of the project.
+- `styles.css` was used for the visual design and layout of the project.
