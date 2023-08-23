@@ -347,10 +347,10 @@
                 if(arrSelectedVal["choice"] != "" && arrSelectedVal["jour"] != "" && arrSelectedVal["heure"] != "")
                 {
                     var match = arrSelectedVal["choice"].split('_')
-                    fillClassroomsArr(match, schedules, geojson, '#FFFAFA');
+                    fillClassroomsArr(match, schedules, geojson, '#e0ffff');
                     colorClassrooms(geojson, classrooms, tooltip);
                 }else{
-                    resetColorClassrooms(geojson, classrooms, '#FFFAFA');
+                    resetColorClassrooms(geojson, classrooms, '#e0ffff');
                 }
                     
           });
