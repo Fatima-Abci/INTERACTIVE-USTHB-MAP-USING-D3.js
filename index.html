@@ -10,9 +10,11 @@
 	<body>
 		<script type="text/javascript">
 
-		/**************************************************************************************
-		*                					GLOBAL VARIABLES                                  *
-		***************************************************************************************/
+		
+        //===================================================================================================
+        //                                   GLOBAL VARIABLES
+        //===================================================================================================
+
 		var speciality = [];
 		var prof = [];
 		var day = ["Jour", "Sam", "Dim", "Lun", "Mar", "Mer", "Jeu"];
@@ -34,11 +36,9 @@
         var path;
         var zoom;
         var legend = [
-                      {name : "salles occupées (spécialité séléctionnée)", color : "#00FF00"}, 
+                      {name : "salle occupée (spécialité séléctionnée)", color : "#00FF00"}, 
                       {name : "salles occupées (autres spécialités)", color : "#FF0000"},
-                      {name : "local occupée [enseignant]", color : "blue"},
-                      {name : "évènement en cours", color : "#6C3483"},
-                      {name : "évènement planifié", color : "#D7BDE2"}
+                      {name : "local occupée [enseignant]", color : "#FC6600"}
                     ];
         //Initialize legend
         var legendItemSize = 12;
@@ -52,14 +52,16 @@
         var name;
         var html;
 
-		/**************************************************************************************
-		*																					  *
-		***************************************************************************************/
+		//====================================================================================================
+        //====================================================================================================
 
 
-		/**************************************************************************************
-        *                						FUNCTIONS                                     *
-        ***************************************************************************************/
+		//===================================================================================================
+        //                                   FUNCTIONS
+        //===================================================================================================
+
+        //---------------------------------------------------------------------------------------------------
+
         //fillArraySpec
         function fillArraySpec(schedules, array) {
             var exist = false;
@@ -76,7 +78,9 @@
                 exist = false;
             });
         }
-        //*************************************************************************************
+
+        //----------------------------------------------------------------------------------------------------
+
         //fillArrayProf
         function fillArrayProf(schedules, array)
         {
@@ -111,14 +115,18 @@
                 });
             });
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //getSelectedValue
         function getSelectedValue(id) {
             var selectedValue;
             selectedValue = d3.select(id).property("value");
             return selectedValue;
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //createSelect
         function createSelect(x, y) {
             var select;
@@ -127,7 +135,9 @@
                 .attr("name", x);
             return select;
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //createOptGroup
         function createOptgroup(select, label)
         {
@@ -136,7 +146,9 @@
                              .attr("label", label);
             return optgroup;
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //addOptions
         function addOptions(select, array, firstValue) {
             select.selectAll("option")
@@ -169,7 +181,9 @@
                     return d;
                 });
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //addOption
         function addOption(select, text)
         {
@@ -177,7 +191,9 @@
                   .attr("value", "")
                   .text(text);
         }
-        //*************************************************************************************
+
+        //----------------------------------------------------------------------------------------------------
+
         //function mouseOver (when the user hovers over a specfic building-->a tooltip is displayed showing some intressting informations[name...etc])
         function mouseover(html, tooltip)
         {
@@ -187,14 +203,18 @@
                 .style("top", (event.pageY - 35)+"px")
                 .style("left", (event.pageX + 35)+"px");
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //function mouseOut
         function mouseOut(tooltip)
         {
             tooltip.html('')
                 .style('visibility', 'hidden');
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //resetColorClassroom
         function resetColorClassrooms(geojson, classrooms, color)
         {
@@ -215,7 +235,9 @@
                 });
             });
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //colorClassroom
         function colorClassrooms(geojson, classrooms, tooltip)
         {
@@ -243,45 +265,45 @@
                 });
             });
         }
-        //*************************************************************************************
-        //Fill
+        
+        //----------------------------------------------------------------------------------------------------
+
+        //fill the object
+        function gen_obj(obj, elt, schedule, color)
+        {
+            obj = {
+                speciality : schedule.Filere,
+                grade : schedule.Grade,
+                section : schedule.Section,
+                module : elt.Module,
+                nomSalle : elt.Salle,
+                prof : elt.Prof,
+                groupe : elt.Groupe,
+                type : elt.Type,
+                color : color
+            };
+            return obj;
+        }
+
+        // Fill 
         function fill(x, schedule, classrooms, color)
         {
             var object = {};
-            x.forEach(function(d){
-                    object = {
-                    speciality : schedule.Filere,
-                    grade : schedule.Grade,
-                    section : schedule.Section,
-                    module : d.Module,
-                    nomSalle : d.Salle,
-                    prof : d.Prof,
-                    groupe : d.Groupe,
-                    type : d.Type,
-                    color : color
-                };
+            if (!Array.isArray(x)) {
+                object = gen_obj(object, x, schedule, color);
+                classrooms.push(object);
+            }
+            else{
+                x.forEach(function(d){
+                object = gen_obj(object, d, schedule, color);
                 classrooms.push(object);
             });
+            }
+            
         }
+        
+        //----------------------------------------------------------------------------------------------------
 
-        //Fill
-        function filld(d, schedule, classrooms, color)
-        {
-            var object = {};
-            object = {
-            speciality : schedule.Filere,
-            grade : schedule.Grade,
-            section : schedule.Section,
-            module : d.Module,
-            nomSalle : d.Salle,
-            prof : d.Prof,
-            groupe : d.Groupe,
-            type : d.Type,
-            color : color
-            };
-            classrooms.push(object);
-        }
-        //*************************************************************************************
         //FillClassroomArr
         function fillClassroomsArr(match, schedules, geojson, color)
         {
@@ -305,13 +327,15 @@
                     x.forEach(function(d){
                         if(match[1] == d.Prof)
                         {
-                            filld(d, schedule, classrooms, "blue");
+                            fill(d, schedule, classrooms, "#FC6600");
                         }
                     });
                 }
             });
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //captUserValues
         function captUserValues(select, key, schedules, geojson)
         {
@@ -331,20 +355,25 @@
                     
           });
         }
-        //*************************************************************************************
+        
+        //----------------------------------------------------------------------------------------------------
+
         //handleZoom
         function handleZoom() {
             g1.attr("transform", d3.event.transform);
             console.log("zoom");
         }
-        /**************************************************************************************
-        *																					  *
-        ***************************************************************************************/
+
+        //----------------------------------------------------------------------------------------------------
+
+        //====================================================================================================
+        //====================================================================================================
 
 
-		/**************************************************************************************
-         *                					LAYOUT OF THE HTML PAGE                           *
-         **************************************************************************************/
+        //===================================================================================================
+        //                                   LAYOUT OF THE HTML PAGE 
+        //===================================================================================================
+
         //create a tooltip
         tooltip = d3.select("body")
                     .append("div")
@@ -371,14 +400,15 @@
         //append a footer to the div container
 		footer = div.append("div")
 				    .attr("class", "footer");
-		/**************************************************************************************
-         *																					  *
-         **************************************************************************************/
+
+		//====================================================================================================
+        //====================================================================================================
 
         
-        /**************************************************************************************
-         *                	 DRAW THE USTHB MAP AND ADD A DROPDOWN MENU AND A LENGEND         *
-         **************************************************************************************/
+        //===================================================================================================
+        //                   DRAW THE USTHB MAP AND ADD A DROPDOWN MENU AND A LENGEND 
+        //===================================================================================================
+
         // the projection funtion
         projection = d3.geoMercator()
                        .translate([0,0])
@@ -438,7 +468,7 @@
             .enter()
             .append('path')
                 .attr('d', path)
-                .attr('fill', '#FFFAFA')
+                .attr('fill', '#e0ffff')
                 .attr('class', 'bloc')
                 .attr('cursor', 'pointer')
                 .attr('id', function(d){
@@ -469,7 +499,7 @@
 
             //add a dropdown speciality
             selectChoice = createSelect("choice", header);
-            addOption(selectChoice, "--Select option--");
+            addOption(selectChoice, "-- Sélectionnez une option --");
             optgroup1 = createOptgroup(selectChoice , "SPECIALITE");
             optgroup2 = createOptgroup(selectChoice , "ENSEIGNANT");
             addOptionsOpt(optgroup1, speciality);
@@ -488,41 +518,11 @@
                 
         });
 
-        //load the csv file (events.csv) and perform some operations on it
-        d3.csv('events.csv').then(function(data){
-            geojson.features.forEach(function(feature){
-                data.forEach(function(d){
-                    if(d.location == feature.properties.name)
-                    {
-                        date = new Date().toLocaleDateString();
-                        if(d.date == date)
-                        {
-                            color = "#6C3483";
-                        }else{
-                            color = "#D7BDE2";
-                        }
-                        name = feature.properties.name;
-                        svg.select("#_"+name.replaceAll(' ', ''))
-                           .style('fill', color)
-                           .on('mouseover', function(){
-                                html = '<b>Name : </b>'+d.location+'<br>'
-                                       +'<b>Subject : </b>'+d.subject+'<br>'
-                                       +'<b>Organizer : </b>'+d.organizer+'<br>'
-                                       +'<b>Date : </b>'+d.date+'<br>';
-                                mouseover(html, tooltip);
-                            })
-                            .on("mouseout", function(){
-                                mouseOut(tooltip);
-                            });
-                    }
-                });
-            });
-        });
             
        });
-        /**************************************************************************************
-         *																					   *
-         ***************************************************************************************/
+        
+       //====================================================================================================
+       //====================================================================================================
 				
 		</script>
 		   
