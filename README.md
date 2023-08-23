@@ -1,7 +1,8 @@
 # INTERACTIVE-USTHB-MAP-USING-D3.js
 ## ABOUT THE PORJECT
-The visualization of the activities of the Computer Science faculty on the USTHB campus using the **D3.js library**.
+Visualizing the activities of the Computer Science faculty at USTHB (University of Science and Technology Houari Boumediene) using the **D3.js library**.
 ## FUNCTIONALITIES
+Before presenting the functionalities of the project, let's take a look at a visual overview of the USTHB map.
 <p align="center"> 
 <img src="https://github.com/Fatima-Abci/INTERACTIVE-USTHB-MAP-USING-D3.js/blob/master/images/map.png" alt="USTHB map" width="850" height="400">
 </p>
@@ -12,6 +13,8 @@ Visualizing how computer science students utilize classrooms based on their fiel
 <p align="center"> 
 <img src="https://github.com/Fatima-Abci/INTERACTIVE-USTHB-MAP-USING-D3.js/blob/master/images/students_functionality.png" alt="students fuctionality" width="850" height="400">
 </p>
+
+**When a user hovers over a highlighted classroom, a tooltip will be displayed, showing all the information about it.**
 
 ### TEACHERS
 ---
