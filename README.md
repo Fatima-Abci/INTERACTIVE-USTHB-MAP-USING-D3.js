@@ -22,3 +22,7 @@ visualizing the classrooms used by a specific teacher, those classrooms will be 
 <p align="center"> 
 <img src="https://github.com/Fatima-Abci/INTERACTIVE-USTHB-MAP-USING-D3.js/blob/master/images/teachers_functionality.png" alt="teachers fuctionality" width="850" height="400">
 </p>
+
+## USAGE
+- `usthb.geojson` represents the map of USTHB and it was created using https://geojson.io/#map=2/0/20.
+- `dataF.json` contains all the schedules of the computer science faculty.
